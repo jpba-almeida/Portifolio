@@ -20,7 +20,8 @@ const greeting = {
   subTitle: emoji(
     "Analista de Dados com formação em Ciência da Computação (UFPel) e certificações IBM e Google. Combinando desenvolvimento web com análise de dados para transformar dados em insights acionáveis e soluções baseadas em dados."
   ),
-  resumeLink: "https://drive.google.com/file/d/1-v9y55y2EaywzJyhHaf3XEw0LTZCC3sm/view?usp=sharing",
+  resumeLink:
+    "https://drive.google.com/file/d/1-v9y55y2EaywzJyhHaf3XEw0LTZCC3sm/view?usp=sharing",
   displayGreeting: true
 };
 
@@ -35,8 +36,12 @@ const skillsSection = {
   title: "Minhas Habilidades",
   subTitle: "ANALISTA DE DADOS COM FOCO EM PYTHON, SQL E VISUALIZAÇÃO",
   skills: [
-    emoji("⚡ Análise de dados e transformação em insights acionáveis para negócios"),
-    emoji("⚡ Desenvolvimento de dashboards e visualizações interativas com Power BI/Tableau"),
+    emoji(
+      "⚡ Análise de dados e transformação em insights acionáveis para negócios"
+    ),
+    emoji(
+      "⚡ Desenvolvimento de dashboards e visualizações interativas com Power BI/Tableau"
+    ),
     emoji("⚡ Manipulação de dados com Python (pandas, NumPy) e SQL avançado"),
     emoji("⚡ Implementação de soluções end-to-end de ciência de dados")
   ],
@@ -179,7 +184,8 @@ const bigProjects = {
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Sistema de Dashboards Analíticos",
-      projectDesc: "Desenvolvimento de sistema completo de dashboards para análise de métricas de negócio com Power BI e Python.",
+      projectDesc:
+        "Desenvolvimento de sistema completo de dashboards para análise de métricas de negócio com Power BI e Python.",
       footerLink: [
         {
           name: "Ver Código",
@@ -190,7 +196,8 @@ const bigProjects = {
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "Pipeline de Dados ETL/ELT",
-      projectDesc: "Pipeline automatizado para coleta, transformação e análise de dados usando Python, SQL e Airflow.",
+      projectDesc:
+        "Pipeline automatizado para coleta, transformação e análise de dados usando Python, SQL e Airflow.",
       footerLink: [
         {
           name: "Ver Código",
@@ -201,7 +208,8 @@ const bigProjects = {
     {
       image: require("./assets/images/machine-learning.png"),
       projectName: "Modelo Preditivo para Engajamento",
-      projectDesc: "Modelo de machine learning para prever engajamento de usuários baseado em dados históricos.",
+      projectDesc:
+        "Modelo de machine learning para prever engajamento de usuários baseado em dados históricos.",
       footerLink: [
         {
           name: "Ver Projeto",
@@ -266,7 +274,8 @@ const blogSection = {
     {
       url: "#",
       title: "Análise de Dados para Decisões de Negócio",
-      description: "Como transformar dados brutos em insights valiosos para tomada de decisão empresarial."
+      description:
+        "Como transformar dados brutos em insights valiosos para tomada de decisão empresarial."
     }
   ],
   display: false
@@ -289,9 +298,7 @@ const talkSection = {
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "CONVERSAS SOBRE DATA SCIENCE E TECNOLOGIA",
-  podcast: [
-    "#"
-  ],
+  podcast: ["#"],
   display: false
 };
 
@@ -303,7 +310,8 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Entre em Contato ☎️"),
-  subtitle: "Interessado em projetos de análise de dados ou oportunidades? Minha caixa de entrada está aberta!",
+  subtitle:
+    "Interessado em projetos de análise de dados ou oportunidades? Minha caixa de entrada está aberta!",
   number: "+55 (11) 98207-1854",
   email_address: "jpbdalmeida@gmail.com"
 };

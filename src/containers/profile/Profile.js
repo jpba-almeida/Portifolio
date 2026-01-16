@@ -1,4 +1,4 @@
-import React, { useState, useEffect, lazy, Suspense } from "react";
+import React, {useState, useEffect, lazy, Suspense} from "react";
 import Contact from "../contact/Contact";
 import Loading from "../loading/Loading";
 

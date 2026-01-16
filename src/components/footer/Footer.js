@@ -8,26 +8,29 @@ export default function Footer() {
   return (
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
-        <p className={isDark ? "dark-mode footer-text" : "footer-text"} style={{ fontSize: "0.8rem", lineHeight: "1.2", opacity: 0.8 }}>
+        <p
+          className={isDark ? "dark-mode footer-text" : "footer-text"}
+          style={{fontSize: "0.8rem", lineHeight: "1.2", opacity: 0.8}}
+        >
           {emoji("Desenvolvido com ❤️ por João Paulo Brito de Almeida")}
         </p>
-        <p 
+        <p
           className={isDark ? "dark-mode footer-text" : "footer-text"}
-          style={{ fontSize: "0.6rem", lineHeight: "1.2", opacity: 0.8 }}
+          style={{fontSize: "0.6rem", lineHeight: "1.2", opacity: 0.8}}
         >
           Template inspirado por{" "}
           <a
             href="https://github.com/saadpasta/developerFolio"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ fontSize: "inherit" }}
+            style={{fontSize: "inherit"}}
           >
             developerFolio
           </a>
         </p>
-        <p 
+        <p
           className={isDark ? "dark-mode footer-text" : "footer-text"}
-          style={{ fontSize: "0.6rem", lineHeight: "1.2", opacity: 0.8 }}
+          style={{fontSize: "0.6rem", lineHeight: "1.2", opacity: 0.8}}
         >
           © {new Date().getFullYear()} - Todos os direitos reservados
         </p>
