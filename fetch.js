@@ -1,4 +1,4 @@
-fs = require("fs");
+const fs = require("fs");
 const https = require("https");
 process = require("process");
 require("dotenv").config();
@@ -16,13 +16,16 @@ const ERR = {
   requestFailedMedium:
     "The request to Medium didn't succeed. Check if Medium username in your .env file is correct."
 };
+
+// --- Fetch GitHub data ---
 if (USE_GITHUB_DATA === "true") {
-  if (GITHUB_USERNAME === undefined) {
+  if (!GITHUB_USERNAME) {
     throw new Error(ERR.noUserName);
   }
 
   console.log(`Fetching profile data for ${GITHUB_USERNAME}`);
-  var data = JSON.stringify({
+
+  const data = JSON.stringify({
     query: `
 {
   user(login:"${GITHUB_USERNAME}") { 
@@ -33,30 +36,26 @@ if (USE_GITHUB_DATA === "true") {
     pinnedItems(first: 6, types: [REPOSITORY]) {
       totalCount
       edges {
-          node {
-            ... on Repository {
-              name
-              description
-              forkCount
-              stargazers {
-                totalCount
-              }
-              url
-              id
-              diskUsage
-              primaryLanguage {
-                name
-                color
-              }
-            }
+        node {
+          ... on Repository {
+            name
+            description
+            forkCount
+            stargazers { totalCount }
+            url
+            id
+            diskUsage
+            primaryLanguage { name color }
           }
         }
       }
     }
+  }
 }
 `
   });
-  const default_options = {
+
+  const options = {
     hostname: "api.github.com",
     path: "/graphql",
     port: 443,
@@ -67,35 +66,38 @@ if (USE_GITHUB_DATA === "true") {
     }
   };
 
-  const req = https.request(default_options, res => {
-    let data = "";
+  const req = https.request(options, res => {
+    let githubData = "";
 
     console.log(`statusCode: ${res.statusCode}`);
     if (res.statusCode !== 200) {
-      throw new Error(ERR.requestFailed);
+      console.warn("Aviso: não foi possível buscar dados do GitHub.");
+      return;
     }
 
     res.on("data", d => {
-      data += d;
+      githubData += d;
     });
     res.on("end", () => {
-      fs.writeFile("./public/profile.json", data, function (err) {
+      fs.writeFile("./public/profile.json", githubData, err => {
         if (err) return console.log(err);
-        console.log("saved file to public/profile.json");
+        console.log("Arquivo salvo: public/profile.json");
       });
     });
   });
 
   req.on("error", error => {
-    throw error;
+    console.warn("Erro ao buscar GitHub:", error);
   });
 
   req.write(data);
   req.end();
 }
 
-if (MEDIUM_USERNAME !== undefined) {
+// --- Fetch Medium data (seguro) ---
+if (MEDIUM_USERNAME) {
   console.log(`Fetching Medium blogs data for ${MEDIUM_USERNAME}`);
+
   const options = {
     hostname: "api.rss2json.com",
     path: `/v1/api.json?rss_url=https://medium.com/feed/@${MEDIUM_USERNAME}`,
@@ -108,22 +110,23 @@ if (MEDIUM_USERNAME !== undefined) {
 
     console.log(`statusCode: ${res.statusCode}`);
     if (res.statusCode !== 200) {
-      throw new Error(ERR.requestMediumFailed);
+      console.warn("Aviso: não foi possível buscar dados do Medium.");
+      return;
     }
 
     res.on("data", d => {
       mediumData += d;
     });
     res.on("end", () => {
-      fs.writeFile("./public/blogs.json", mediumData, function (err) {
+      fs.writeFile("./public/blogs.json", mediumData, err => {
         if (err) return console.log(err);
-        console.log("saved file to public/blogs.json");
+        console.log("Arquivo salvo: public/blogs.json");
       });
     });
   });
 
   req.on("error", error => {
-    throw error;
+    console.warn("Erro ao buscar Medium:", error);
   });
 
   req.end();

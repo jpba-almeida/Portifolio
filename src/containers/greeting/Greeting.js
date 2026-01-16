@@ -34,20 +34,23 @@ export default function Greeting() {
                     : "greeting-text-p subTitle"
                 }
               >
+
+
                 {greeting.subTitle}
               </p>
               <div id="resume" className="empty-div"></div>
               <SocialMedia />
               <div className="button-greeting-div">
-                <Button text="Contact me" href="#contact" />
+                <Button text="Contate-me" href="#contact" />
                 {greeting.resumeLink && (
-                  <a
-                    href={require("./resume.pdf")}
-                    download="Resume.pdf"
-                    className="download-link-button"
-                  >
-                    <Button text="Download my resume" />
-                  </a>
+                 <a
+      href="https://drive.google.com/file/d/1-v9y55y2EaywzJyhHaf3XEw0LTZCC3sm/view?usp=drive_link"
+      target="_blank"             
+      rel="noopener noreferrer"    
+      className="download-link-button"
+    >
+      <Button text="Ver Currículo" />
+    </a>
                 )}
               </div>
             </div>

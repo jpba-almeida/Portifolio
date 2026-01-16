@@ -31,6 +31,8 @@ export default function EducationCard({school}) {
                 className="education-roundedimg"
                 src={school.logo}
                 alt={school.schoolName}
+                  style={{ width: '200px', height: '200px' }} // Adicione esta linha
+
               />
             </div>
           )}
