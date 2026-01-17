@@ -1,15 +1,15 @@
 "use strict";
-(self.webpackChunkjoao = self.webpackChunkjoao || []).push([
+(self.webpackChunkdeveloperfolio = self.webpackChunkdeveloperfolio || []).push([
   [64],
   {
     2064: (e, s, a) => {
-      a.r(s), a.d(s, {default: () => n});
+      a.r(s), a.d(s, {default: () => l});
       a(2791);
       var d = a(1394);
       const i = e =>
         e < 1024 ? `${e} KB` : `${parseFloat((e / 1024).toFixed(1))} MB`;
       var r = a(184);
-      function n(e) {
+      function l(e) {
         let {repo: s, isDark: a} = e;
         return (0, r.jsx)(d.pT, {
           bottom: !0,
@@ -135,4 +135,4 @@
     }
   }
 ]);
-//# sourceMappingURL=64.05c39197.chunk.js.map
+//# sourceMappingURL=64.56dc6704.chunk.js.map

@@ -1,4 +1,4 @@
-/*! For license information please see main.782a22b4.js.LICENSE.txt */
+/*! For license information please see main.6814ce44.js.LICENSE.txt */
 (() => {
   var __webpack_modules__ = {
       8666: (t, e, i) => {
@@ -34240,7 +34240,7 @@
       "static/js/" +
       t +
       "." +
-      {64: "05c39197", 769: "375f411e"}[t] +
+      {64: "56dc6704", 769: "8e105b96"}[t] +
       ".chunk.js"),
     (__webpack_require__.miniCssF = t =>
       "static/css/" +
@@ -34260,7 +34260,7 @@
       Object.prototype.hasOwnProperty.call(t, e)),
     (() => {
       var t = {},
-        e = "joao:";
+        e = "developerfolio:";
       __webpack_require__.l = (i, r, a, n) => {
         if (t[i]) t[i].push(r);
         else {
@@ -34444,7 +34444,8 @@
               __webpack_require__.o(t, a) && t[a] && t[a][0](),
               (t[a] = 0);
         },
-        i = (self.webpackChunkjoao = self.webpackChunkjoao || []);
+        i = (self.webpackChunkdeveloperfolio =
+          self.webpackChunkdeveloperfolio || []);
       i.forEach(e.bind(null, 0)), (i.push = e.bind(null, i.push.bind(i)));
     })();
   var __webpack_exports__ = {};
@@ -37283,4 +37284,4 @@
         });
   })();
 })();
-//# sourceMappingURL=main.782a22b4.js.map
+//# sourceMappingURL=main.6814ce44.js.map
