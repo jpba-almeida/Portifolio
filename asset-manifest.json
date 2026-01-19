@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/Portifolio/static/css/main.97bb29f8.css",
-    "main.js": "/Portifolio/static/js/main.412ca3c8.js",
+    "main.js": "/Portifolio/static/js/main.528f320f.js",
     "static/css/64.bba8fa55.chunk.css": "/Portifolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/Portifolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/Portifolio/static/css/769.b3cbb36b.chunk.css",
     "static/js/769.8e105b96.chunk.js": "/Portifolio/static/js/769.8e105b96.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/Portifolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/google-logo.png": "/Portifolio/static/media/google-logo.429f1f8918a380761c3f.png",
     "static/media/Agustina.woff": "/Portifolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/manOnTable.svg": "/Portifolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/contactMailDark.svg": "/Portifolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
@@ -18,7 +19,7 @@
     "index.html": "/Portifolio/index.html",
     "static/media/talksCardBack.svg": "/Portifolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.97bb29f8.css.map": "/Portifolio/static/css/main.97bb29f8.css.map",
-    "main.412ca3c8.js.map": "/Portifolio/static/js/main.412ca3c8.js.map",
+    "main.528f320f.js.map": "/Portifolio/static/js/main.528f320f.js.map",
     "64.bba8fa55.chunk.css.map": "/Portifolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/Portifolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/Portifolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -26,6 +27,6 @@
   },
   "entrypoints": [
     "static/css/main.97bb29f8.css",
-    "static/js/main.412ca3c8.js"
+    "static/js/main.528f320f.js"
   ]
 }
