@@ -253,7 +253,8 @@ const achievementSection = {
       ]
     },
     {
-      title: "Análise de Negócios no Desenvolvimento de Soluções Baseadas em Dados",
+      title:
+        "Análise de Negócios no Desenvolvimento de Soluções Baseadas em Dados",
       subtitle: "ENAP - Escola Nacional de Administração Pública",
       image: require("./assets/images/enap.png"),
       imageAlt: "ENAP Certification Logo",
