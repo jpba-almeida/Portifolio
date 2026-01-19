@@ -108,18 +108,20 @@ const educationInfo = {
     {
       schoolName: "Universidade Federal de Pelotas (UFPel)",
       logo: require("./assets/images/ufpel.png"),
-      subHeader: "Bacharelado em Ciência da Computação",
+      subHeader: "Bacharelado em Ciência da Computação | Pesquisa em IA/NLP",
       duration: "2019 – 2025",
-      desc: "Bolsa de Pesquisa em Inteligência Artificial e Análise de Dados (CNPq/MCTI/SEMP). Focada em ABSA (Aspect-Based Sentiment Analysis) usando modelos Transformer.",
+      desc: "Bolsista de Pesquisa CNPq/MCTI/SEMP em Inteligência Artificial e Processamento de Linguagem Natural. Desenvolvimento de pesquisa pioneira em Análise de Sentimento Baseada em Aspectos (ABSA) aplicando arquiteturas Transformer.",
       descBullets: [
-        "Pesquisa em IA/PLN: Análise de Sentimento Baseada em Aspectos (ABSA)",
-        "Publicação e implementação pioneira do mecanismo LCF para português brasileiro",
-        "Disciplinas relevantes: Estatística Computacional, Banco de Dados, Mineração de Dados, Machine Learning, PLN"
+        "Pesquisa Avançada em NLP: Implementação pioneira do mecanismo LCF (Local Context Focus) para análise de sentimentos em português brasileiro, sendo o primeiro trabalho a adaptar esta técnica para datasets brasileiros.",
+        "Modelos Transformer: Fine-tuning de modelos BERT (BERTimbau) para classificação de aspectos e polaridade em reviews de produtos, alcançando accuracy superior a 85% em validação cruzada.",
+        "Análise de Dados em Escala: Processamento e análise de grandes volumes de dados textuais (+50k amostras) com técnicas de limpeza, pré-processamento e feature engineering específicas para NLP.",
+        "Metodologia Científica: Aplicação completa do método científico: revisão bibliográfica, formulação de hipóteses, coleta de dados, experimentação e análise de resultados com métricas robustas.",
+        "Stack Técnico Especializado: Python, PyTorch, Transformers (Hugging Face), spaCy, pandas, scikit-learn, SQL, Docker, Jupyter Notebooks.",
+        "Disciplinas Relevantes: Estatística Computacional, Banco de Dados, Mineração de Dados, Machine Learning, Processamento de Linguagem Natural, Inteligência Artificial, Aprendizado de Máquina."
       ]
     }
   ]
 };
-
 const techStack = {
   viewSkillBars: true,
   experience: [
@@ -247,6 +249,66 @@ const achievementSection = {
         {
           name: "Ver Certificado",
           url: "https://www.coursera.org/account/accomplishments/verify/7OD60V4QAN3L"
+        }
+      ]
+    },
+    {
+      title: "Análise de Negócios no Desenvolvimento de Soluções Baseadas em Dados",
+      subtitle: "ENAP - Escola Nacional de Administração Pública",
+      image: require("./assets/images/enap.png"),
+      imageAlt: "ENAP Certification Logo",
+      footerLink: [
+        {
+          name: "Ver Certificado",
+          url: "https://drive.google.com/file/d/1_-KftoqImXYL5xwS-82EZ6xLfCngldtZ/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "Big Data em Apoio à Tomada de Decisão",
+      subtitle: "ENAP - Escola Nacional de Administração Pública",
+      image: require("./assets/images/enap.png"),
+      imageAlt: "ENAP Certification Logo",
+      footerLink: [
+        {
+          name: "Ver Certificado",
+          url: "https://drive.google.com/file/d/1P6aOKw9sOH73yoorkGntav3ZQQheYgxJ/view?usp=drive_link"
+        }
+      ]
+    },
+    {
+      title: "Excel Avançado",
+      subtitle: "ENAP - Escola Nacional de Administração Pública",
+      image: require("./assets/images/enap.png"),
+      imageAlt: "ENAP Certification Logo",
+      footerLink: [
+        {
+          name: "Ver Certificado",
+          url: "https://drive.google.com/file/d/16qVvef-ikhVQpNWiwDAlCXKN10L6oJF0/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "Visualização de Dados Aplicada à Transformação Digital",
+      subtitle: "ENAP - Escola Nacional de Administração Pública",
+      image: require("./assets/images/enap.png"),
+      imageAlt: "ENAP Certification Logo",
+      footerLink: [
+        {
+          name: "Ver Certificado",
+          url: "https://drive.google.com/file/d/1Va57loLHuhTm2zTxrJpALHWZivKVZdMK/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "Responsive Web Design",
+      subtitle: "freeCodeCamp - Certificação de Desenvolvimento Front-end",
+      image: require("./assets/images/freecodecamp.png"),
+      imageAlt: "freeCodeCamp Certification Logo",
+      footerLink: [
+        {
+          name: "Ver Certificado",
+          url: "https://freecodecamp.org/certification/jpbdalmeida/responsive-web-design"
         }
       ]
     },
