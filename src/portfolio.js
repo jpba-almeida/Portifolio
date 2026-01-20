@@ -224,8 +224,8 @@ const bigProjects = {
 };
 
 const achievementSection = {
-  title: emoji("Certificações e Conquistas 🏆"),
-  subtitle: "CERTIFICAÇÕES RECONHECIDAS E CONQUISTAS PROFISSIONAIS",
+  title: emoji("Certificações e Declarações 🏆"),
+  subtitle: "CERTIFICAÇÕES RECONHECIDAS E Declarações PROFISSIONAIS",
 
   achievementsCards: [
     {
@@ -249,6 +249,42 @@ const achievementSection = {
         {
           name: "Ver Certificado",
           url: "https://www.coursera.org/account/accomplishments/verify/7OD60V4QAN3L"
+        }
+      ]
+    },
+    {
+      title: "Álgebra Linear e Ciência de Dados",
+      subtitle: "FGV - Fundação Getulio Vargas",
+      image: require("./assets/images/FGV.png"),
+      imageAlt: "FGV Certification Logo",
+      footerLink: [
+        {
+          name: "Ver declaração",
+          url: "https://drive.google.com/drive/folders/1C1TjoQEdrI2VwfEp_R65v4DvAsDvusEs?hl=pt-br"
+        }
+      ]
+    },
+    {
+      title: "SQL - Structured Query Language",
+      subtitle: "FGV - Fundação Getulio Vargas",
+      image: require("./assets/images/FGV.png"),
+      imageAlt: "FGV Certification Logo",
+      footerLink: [
+        {
+          name: "Ver declaração",
+          url: "https://drive.google.com/drive/folders/1C1TjoQEdrI2VwfEp_R65v4DvAsDvusEs?hl=pt-br"
+        }
+      ]
+    },
+    {
+      title: "Tópicos em Machine Learning",
+      subtitle: "FGV - Fundação Getulio Vargas",
+      image: require("./assets/images/FGV.png"),
+      imageAlt: "FGV Certification Logo",
+      footerLink: [
+        {
+          name: "Ver declaração",
+          url: "https://drive.google.com/drive/folders/1C1TjoQEdrI2VwfEp_R65v4DvAsDvusEs?hl=pt-br"
         }
       ]
     },
