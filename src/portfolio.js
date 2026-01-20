@@ -260,7 +260,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Ver declaração",
-          url: "https://drive.google.com/drive/folders/1C1TjoQEdrI2VwfEp_R65v4DvAsDvusEs?hl=pt-br"
+          url: "https://drive.google.com/file/d/10_IjopbXn-uj6X1lAExAIfQ6PTdlAcUL/view?usp=sharing"
         }
       ]
     },
@@ -272,7 +272,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Ver declaração",
-          url: "https://drive.google.com/drive/folders/1C1TjoQEdrI2VwfEp_R65v4DvAsDvusEs?hl=pt-br"
+          url: "https://drive.google.com/file/d/15SOnY07U6sWYCTc5c0Z-lEWjvjqS3dnv/view?usp=sharing"
         }
       ]
     },
@@ -284,7 +284,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Ver declaração",
-          url: "https://drive.google.com/drive/folders/1C1TjoQEdrI2VwfEp_R65v4DvAsDvusEs?hl=pt-br"
+          url: "https://drive.google.com/file/d/1hM5hOUDc18eRMY5clmyg5--XkHcOuOpg/view?usp=sharing"
         }
       ]
     },
