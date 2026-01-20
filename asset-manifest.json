@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portifolio/static/css/main.97bb29f8.css",
-    "main.js": "/Portifolio/static/js/main.528f320f.js",
+    "main.js": "/Portifolio/static/js/main.e24381c4.js",
     "static/css/64.bba8fa55.chunk.css": "/Portifolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/Portifolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/Portifolio/static/css/769.b3cbb36b.chunk.css",
@@ -12,6 +12,7 @@
     "static/media/manOnTable.svg": "/Portifolio/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
     "static/media/contactMailDark.svg": "/Portifolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/Portifolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/FGV.png": "/Portifolio/static/media/FGV.7dd01339e6a4622c859e.png",
     "static/media/machine-learning.png": "/Portifolio/static/media/machine-learning.373d4eb973a4a237c594.png",
     "static/media/skill.svg": "/Portifolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "static/media/saayaHealthLogo.webp": "/Portifolio/static/media/saayaHealthLogo.60b27d1f184fadfce43a.webp",
@@ -19,7 +20,7 @@
     "index.html": "/Portifolio/index.html",
     "static/media/talksCardBack.svg": "/Portifolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.97bb29f8.css.map": "/Portifolio/static/css/main.97bb29f8.css.map",
-    "main.528f320f.js.map": "/Portifolio/static/js/main.528f320f.js.map",
+    "main.e24381c4.js.map": "/Portifolio/static/js/main.e24381c4.js.map",
     "64.bba8fa55.chunk.css.map": "/Portifolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/Portifolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/Portifolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -27,6 +28,6 @@
   },
   "entrypoints": [
     "static/css/main.97bb29f8.css",
-    "static/js/main.528f320f.js"
+    "static/js/main.e24381c4.js"
   ]
 }
