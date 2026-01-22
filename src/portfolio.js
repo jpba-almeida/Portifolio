@@ -18,7 +18,7 @@ const greeting = {
   username: "João Paulo Brito de Almeida",
   title: "Olá, eu sou João Paulo",
   subTitle: emoji(
-    "Analista de Dados com formação em Ciência da Computação (UFPel) e certificações IBM e Google. Combinando desenvolvimento web com análise de dados para transformar dados em insights acionáveis e soluções baseadas em dados."
+      "Analista de Dados Júnior com experiência prática em ambiente de hypergrowth internacional. Atuo transformando dados em insights claros e acionáveis, apoiando decisões estratégicas com análise técnica sólida. Busco contribuir com projetos reais em escala e aprender com times experientes."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1-v9y55y2EaywzJyhHaf3XEw0LTZCC3sm/view?usp=sharing",
@@ -108,7 +108,7 @@ const educationInfo = {
     {
       schoolName: "Universidade Federal de Pelotas (UFPel)",
       logo: require("./assets/images/ufpel.png"),
-      subHeader: "Bacharelado em Ciência da Computação | Pesquisa em IA/NLP",
+      subHeader: "Bacharelado em Ciência da Computação ",
       duration: "2019 – 2025",
       desc: "Bolsista de Pesquisa CNPq/MCTI/SEMP em Inteligência Artificial e Processamento de Linguagem Natural. Desenvolvimento de pesquisa pioneira em Análise de Sentimento Baseada em Aspectos (ABSA) aplicando arquiteturas Transformer.",
       descBullets: [
@@ -153,27 +153,29 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Desenvolvedor Júnior",
-      company: "BYJU'S",
-      companylogo: require("./assets/images/by.jpg"),
-      date: "2023 – 2024",
-      desc: "Desenvolvimento de dashboards internos para visualização de métricas de projetos. Análise de dados de uso da aplicação para identificar padrões e melhorias.",
+      role: "Desenvolvedor Júnior – Data & Analytics",
+      company: "BYJU'S Learning",
+      companylogo: require("./assets/images/by.jpg"), // Certifique-se de ter esta logo
+      date: "2022 –  2024 ",
+      desc: "Atuação na maior empresa global de tecnologia educacional (EdTech), em ambiente de rápido crescimento (hypergrowth) e operação internacional.",
       descBullets: [
-        "Implementação de sistema de tracking de eventos para coleta de dados analíticos",
-        "Colaboração em 50+ sprints utilizando metodologias ágeis (Scrum)",
-        "Análise de dados para identificação de oportunidades de melhoria"
+        "Extração, limpeza e integração de dados de múltiplas fontes para consolidar a visão analítica do negócio.",
+        "Desenvolvimento de scripts em Python e automações para otimizar processos manuais de dados, aumentando a eficiência da equipe.",
+        "Criação de dashboards e relatórios no Power BI/Tableau para monitoramento de KPIs e suporte à tomada de decisão estratégica.",
+        "Análise contínua de métricas de produto e marketing para identificar tendências, oportunidades de melhoria e insights acionáveis.",
+        "Colaboração direta com equipes de produto, marketing e negócio em um ambiente internacional, traduzindo necessidades em soluções de dados."
       ]
     },
     {
-      role: "Estágio em Desenvolvimento",
-      company: "BYJU'S FutureSchool Brasil",
-      companylogo: require("./assets/images/byjus.png"),
+      role: "Estagiário de Análise de Dados",
+      company: "BYJU'S Learning",
+      companylogo: require("./assets/images/by.jpg"), // Certifique-se de ter esta logo
       date: "2022",
-      desc: "Análise de dados de engajamento em plataforma educacional e desenvolvimento de relatórios para acompanhamento de métricas de aprendizado.",
+      desc: "Primeira experiência em análise de dados, apoiando a equipe de Subject Matter Experts na interpretação de dados educacionais.",
       descBullets: [
-        "Projetos que aumentaram o engajamento em campanhas em 40% através de análise de dados",
-        "Desenvolvimento de relatórios para acompanhamento de métricas de aprendizado",
-        "Análise de comportamento de usuários em plataforma de ensino"
+        "Coleta, tratamento e análise de dados de desempenho de alunos e cursos para apoiar decisões pedagógicas e estratégicas.",
+        "Contribuição para a criação de dashboards e relatórios que monitoravam o engajamento e a eficácia dos programas educacionais.",
+        "Identificação de padrões e tendências nos dados que apontavam oportunidades de otimização na experiência de aprendizado."
       ]
     }
   ]
@@ -420,9 +422,15 @@ const twitterDetails = {
   display: false
 };
 
+const openSource = {
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  display: true // Set false to hide this section, defaults to true
+};
+
 const isHireable = true;
 
 export {
+  openSource,
   illustration,
   greeting,
   socialMediaLinks,
