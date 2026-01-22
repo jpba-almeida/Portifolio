@@ -18,7 +18,7 @@ const greeting = {
   username: "João Paulo Brito de Almeida",
   title: "Olá, eu sou João Paulo",
   subTitle: emoji(
-      "Analista de Dados Júnior com experiência prática em ambiente de hypergrowth internacional. Atuo transformando dados em insights claros e acionáveis, apoiando decisões estratégicas com análise técnica sólida. Busco contribuir com projetos reais em escala e aprender com times experientes."
+    "Analista de Dados Júnior com experiência prática em ambiente de hypergrowth internacional. Atuo transformando dados em insights claros e acionáveis, apoiando decisões estratégicas com análise técnica sólida. Busco contribuir com projetos reais em escala e aprender com times experientes."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1-v9y55y2EaywzJyhHaf3XEw0LTZCC3sm/view?usp=sharing",
