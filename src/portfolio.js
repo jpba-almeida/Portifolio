@@ -21,7 +21,7 @@ const greeting = {
     "Analista de Dados com experiência prática em ambiente de hypergrowth internacional. Atuo transformando dados em insights claros e acionáveis, apoiando decisões estratégicas com análise técnica sólida. Busco contribuir com projetos reais em escala e aprender com times experientes."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1-v9y55y2EaywzJyhHaf3XEw0LTZCC3sm/view?usp=sharing",
+    "https://drive.google.com/file/d/1NKgPhquSwciv-V2d8C629rgugKV6VNFD/view?usp=sharing",
   displayGreeting: true
 };
 
